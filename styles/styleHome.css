@@ -1,0 +1,12 @@
+/* Background */
+[data-bs-theme="light"] main{
+    background-image: url(../images/background_home_light.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+[data-bs-theme="dark"] main{
+    background-image: url(../images/background_home_dark.svg);
+    background-size: cover;
+    background-position: center;
+}
