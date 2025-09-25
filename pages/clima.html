@@ -8,16 +8,38 @@
     
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
     <!-- JS -->
-    <script src="/scripts/scriptClima.js" defer></script>
+    <script src="/scripts/scriptClima.js" type="module"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/styleClima.css">
 </head>
-<body>
+<body data-bs-theme="light" class="vh-100">
 
+    <button id="theme-page-btn" class="btn" type="button"><i id="theme-page" class="bi bi-moon-fill"></i></button>
+    
     <h1>DETALLE CLIMA</h1>
-
-
-
+    <!-- SACAR FLEX-COLUMN (solo hecho temporalmente para version movil, debería ser GRID) -->
+    <main class="d-flex flex-column">
+        <section id="weather-today" class="border border-black">
+            <h2>Hoy</h2>
+            <div id="today-card" class="d-flex">
+                <!-- Clima y detalles de ahora -->
+            </div>
+            <ul id="next-hours">
+                <!-- Acá van las horas siguientes -->
+            </ul>
+        </section>
+        
+        <section id="weather-next-days" class="border border-black">
+            <h2>Próximos días</h2>
+            <ul id="next-days-cards" class="d-flex">
+                <!-- Acá van los próximos días -->
+            </ul>
+        </section>
+    </main>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
