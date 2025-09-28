@@ -18,14 +18,16 @@
 </head>
 <body data-bs-theme="light" class="vh-100">
 
+    <a class="btn" href="/index.html"><i class="bi bi-house-door-fill"></i></a>
     <button id="theme-page-btn" class="btn" type="button"><i id="theme-page" class="bi bi-moon-fill"></i></button>
     
     <h1>DETALLE CLIMA</h1>
-    <!-- SACAR FLEX-COLUMN (solo hecho temporalmente para version movil, debería ser GRID) -->
+    
     <main class="container-md">
         <div class="row">
-            <section id="weather-today" class="col col-12 col-md-7 border border-black">
-                <div id="today-weather">
+            <section class="col col-12 col-md-7">
+                <h2>Ahora</h2>
+                <div id="today-weather" class="mb-1">
                     <!-- Clima y detalles de ahora -->
                 </div>
                 <h4>Proximas horas</h4>
@@ -34,9 +36,9 @@
                 </ul>
             </section>
             
-            <section id="next-days" class="col col-12 col-md-5 border border-black">
+            <section id="next-days" class="col col-12 col-md-5">
                 <h2>Próximos días</h2>
-                <ul id="next-days-list" class="d-flex flex-column list-unstyled overflow-auto">
+                <ul id="next-days-list" class="d-flex flex-column gap-4 list-unstyled overflow-auto">
                     <!-- Acá van los próximos días -->
                 </ul>
             </section>

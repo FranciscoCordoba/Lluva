@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="696.70068"
+   height="696.70068"
+   viewBox="0 0 696.70068 696.70068"
+   version="1.1"
+   id="svg81"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs81" />
+  <g
+     id="g89"
+     transform="translate(-1523.9034,-1067.0756)">
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 2044.2695,1415.2617 c 0,45.0977 -17.9179,88.3477 -49.8086,120.2383 -31.8906,31.8906 -75.1406,49.8086 -120.2421,49.8086 -45.1094,0 -88.3594,-17.918 -120.25,-49.8086 -31.8907,-31.8906 -49.8086,-75.1406 -49.8086,-120.2383 0,-45.1015 17.9179,-88.3633 49.8086,-120.25 31.8906,-31.8906 75.1406,-49.8125 120.25,-49.8125 45.1015,0 88.3515,17.9219 120.2421,49.8125 31.8907,31.8867 49.8086,75.1485 49.8086,120.25 z m 0,0"
+       id="path15" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 1862.25,1067.0756 v 151.3591 h 21.1094 v -151.293 z"
+       id="path16" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 1862.4574,1612.4172 -0.2074,151.3591 h 21.1094 v -151.2891 z"
+       id="path17" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 1619.9501,1176.7672 107.3883,106.9814 14.9297,-14.9336 -106.9805,-106.9688 z"
+       id="path18" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 2005.0123,1560.9959 106.9696,107.3883 14.9297,-14.9218 -106.9766,-106.9805 z"
+       id="path19" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 2124.8375,1176.5598 -106.5626,107.1888 -14.9219,-14.9336 106.9687,-106.9688 z"
+       id="path20" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 1740.194,1560.9959 -106.5587,107.3883 -14.9297,-14.9218 106.9727,-106.9805 z"
+       id="path21" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="M 2220.6041,1425.0781 H 2069.245 v -21.1093 h 151.293 z"
+       id="path22" />
+    <path
+       fill-rule="nonzero"
+       fill="#ffbf06"
+       fill-opacity="1"
+       d="m 1675.2508,1424.8707 -151.3474,0.2074 v -21.1093 h 151.2891 z"
+       id="path23" />
+  </g>
+</svg>
