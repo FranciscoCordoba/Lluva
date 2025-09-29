@@ -1,5 +1,5 @@
-import { buscarCiudades } from "api.js";
-import { PAISES } from "paises.js";
+import { buscarCiudades } from "./api.js";
+import { PAISES } from "./paises.js";
 
 const LIGHT = 'light'
 const DARK = 'dark'
