@@ -5,7 +5,7 @@ const LIGHT = 'light'
 const DARK = 'dark'
 
 // Si estoy en la pagina index.html. Debo hacer esto ya que al importar la funcion 'setearModo()' en clima.html se ejecuta todo el código 'scriptHome.js'
-if(window.location.pathname.includes('index.html')){
+if(!window.location.pathname.includes('clima.html')){
     const BUTTONFIND = document.getElementById('find-cities-btn')
     setearModo();  // Modo oscuro / claro
     BUTTONFIND.addEventListener('click', consultarCiudad)
