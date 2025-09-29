@@ -17,7 +17,7 @@ export async function buscarClimaHoras(LATITUD, LONGITUD){      // Clima por hor
 }
 
 export async function buscarCalidadAire(LATITUD, LONGITUD){     // Calidad del aire
-    let URL = `http://api.openweathermap.org/data/2.5/air_pollution?lat=${LATITUD}&lon=${LONGITUD}&appid=${APIKEY}`
+    let URL = `https://api.openweathermap.org/data/2.5/air_pollution?lat=${LATITUD}&lon=${LONGITUD}&appid=${APIKEY}`
     let response = await consultarAPI(URL)
 
     return response
@@ -25,9 +25,9 @@ export async function buscarCalidadAire(LATITUD, LONGITUD){     // Calidad del a
 
 //------ Consulta de ciudad ------
 export async function buscarCiudades(INPUTCITY){
-    let URL = `http://api.openweathermap.org/geo/1.0/direct?q=${INPUTCITY}&limit=5&appid=${APIKEY}`
+    let URL = `https://api.openweathermap.org/geo/1.0/direct?q=${INPUTCITY}&limit=5&appid=${APIKEY}`
     let response = await consultarAPI(URL)
-    console.log("ENTRA A API")
+    
     return response
 }
 
