@@ -1,5 +1,5 @@
-import { buscarClima, buscarClimaHoras, buscarCalidadAire } from "./api.js"
-import { setearModo } from "./scriptHome.js"
+import { buscarClima, buscarClimaHoras, buscarCalidadAire } from "api.js"
+import { setearModo } from "scriptHome.js"
 
 const QUERYSTRING = window.location.search          // ?ciudad=London
 const PARAMS = new URLSearchParams(QUERYSTRING)     // {ciudad: 'London'}
